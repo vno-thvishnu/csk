@@ -1,0 +1,46 @@
+.grid{
+    width: 40px;
+    left: 0%;
+    position: absolute;
+    background-color: black;
+    /* overflow: hidden; */
+    object-fit: cover;
+}
+.container{
+    width: 40px;
+    /* background-color: black; */
+    border: solid #020608;
+    /* grid-area: 1px; */
+    
+    left: 15px;
+    /* position: absolute; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    bottom: 0px;
+    text-align: left;
+   line-height: 1px;
+    /* padding: 50px; */
+    /* gap:10px; */
+}
+
+
+
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    /* grid-template-rows: 120px 120px 120px; */
+    /* position: absolute; */
+    /* top:400px; */
+    /* width: 280px; */
+    /* left:0px; */
+    /* bottom: 0px; */
+    /* padding: 50px; */
+    gap: 30px;
+    /* text-align: center; 
+} 
